@@ -42,13 +42,12 @@ img {
 
 
 .nav-top {
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   color: lightgray;
   font-size: x-large;
 }
-
-.nav-top
 
 .blog > article > h2 {
   font-size: 3rem ;
