@@ -1,13 +1,100 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border-left: 5px solid lightgray;
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
+
+.blog {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2rem; ;
+}
+
+img {
+  width: 100%;
+}
+
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+  font-size: x-large;
+}
+
+.nav-top
+
+.blog > article > h2 {
+  font-size: 3rem ;
+}
+
+.blog > article > h4 {
+  width: fit-content;
+  margin-left: auto; 
+  margin-right: 0;
+  color: tomato;
+  
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+time {
+  font-size: 2rem;
+  color: lightgray;
+}
+
+p::first-letter{
+  font-size: 4rem;
+  font-weight: bold;
+  color: lightgray;
+  float: left;
+}
+p {
+  color: #2f4e4f ;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+
+.footer {
+  color: lightgray;
+}
+
+
+
+
+
+
